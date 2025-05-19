@@ -12,23 +12,57 @@ body {
     display: flex;
     min-width: 100vh;
     height: 3rem;
-    padding: 1rem;
+    padding: 1rem 4rem;
     justify-content: space-between;
     align-items: center;
     align-content: center;
     border: 1px solid red;
+    background-color: #1F2937;
+    color: white;
 }
 
 .logo {
     font-size: 1.5rem;
-
+    font-weight: 800;
 }
 
 ul {
     list-style: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
     gap: 8px; 
     border: 1px solid red;
     display: flex;
+}
 
+.pg-one {
+    background-color: #1F2937;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+
+}
+
+.herotext {
+    font-size: 48px;
+    color: #F9FAF8; 
+    font-weight: 900;
+    padding: 1rem; 
+}
+
+#imageholder {
+    box-sizing: border-box;
+    padding: 100px 60px 100px 80px;
+    margin: 0 auto;
+    border: 1px solid white;
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.footer {
 }
