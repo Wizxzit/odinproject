@@ -44,7 +44,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
+    padding: 3rem;
 }
 
 .herotext {
@@ -100,6 +100,7 @@ ul {
     justify-content: center;
     flex-direction: column;
     min-height: 50vh;
+    padding: 2rem;
 }
 
 .pagetwo_title {
@@ -113,6 +114,7 @@ ul {
 .showcase-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -146,6 +148,7 @@ ul {
     background-color: #E5E7EB;
     min-height: 50vh;
     min-width: 100vh; 
+    padding: 2rem;
 }
 
 .quote::before {
@@ -158,18 +161,24 @@ ul {
 
 .quote {
     display: block;
-    margin: 5rem 5rem 2rem;
+    margin: 3rem 5rem 2rem;
     font-size: 2.5rem;
     font-family: "light italic", sans-serif;
     color: #1F2937;
 }
 
+.namecontainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
 .name {
-    margin: 0 0 0 25rem;
+    box-sizing: border-box;
+    display: inline; 
+    margin: 0 2rem 3rem;
     font-weight: 800;
     font-size: 1.5rem;
-    border: 1px solid red;
-    justify-content: flex-end;
 }
 
 /* footer */
@@ -187,12 +196,18 @@ ul {
     align-items: center;
     border-radius: 10px;
     background-color: #3882f6;
-
-
     color: white;
     font-family: "Roboto", sans-serif;
     padding: 3rem 3rem;
     margin: 3rem 3rem;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
 }
 
 .top {
@@ -202,7 +217,6 @@ ul {
     margin: 0;
     font-size: 1.5rem;
     font-weight: 800;
-    border: 1px solid red;
 }
 
 .bottom {
@@ -212,7 +226,6 @@ ul {
     margin: 0;
     font-size: .8rem;
     font-weight: 600;
-    border: 1px solid red;
 }
 
 .messageboxcontainer button {
