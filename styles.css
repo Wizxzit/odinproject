@@ -64,7 +64,7 @@ ul {
     max-width: 60vh;
 }
 
-.text-container .signup {
+.signup {
     justify-content: center;
     background-color: #3882f6;
     font-family: "Roboto", sans-serif;
@@ -161,6 +161,7 @@ ul {
     margin: 5rem 5rem 2rem;
     font-size: 2.5rem;
     font-family: "light italic", sans-serif;
+    color: #1F2937;
 }
 
 .name {
@@ -171,7 +172,51 @@ ul {
     justify-content: flex-end;
 }
 
-.footer {
-    background-color: #1F2937;
+/* footer */
 
+.footer {
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    flex: 0 0 auto;
+}
+
+.messageboxcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3882f6;
+
+
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding: 3rem 3rem;
+    margin: 3rem 3rem;
+}
+
+.top {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: 1px solid red;
+}
+
+.bottom {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: .8rem;
+    font-weight: 600;
+    border: 1px solid red;
+}
+
+.messageboxcontainer button {
+    padding: .8rem 1.2rem;
+    border: 2px solid white;
+    flex: 0 0 auto;
 }
