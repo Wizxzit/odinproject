@@ -16,7 +16,6 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    border: 1px solid red;
     background-color: #1F2937;
     color: white;
 }
@@ -30,39 +29,55 @@ ul {
     list-style: none;
     font-size: 0.9rem;
     font-weight: 600;
-    gap: 8px; 
-    border: 1px solid red;
+    gap: 0.4rem; 
     display: flex;
 }
 
 .pg-one {
     background-color: #1F2937;
-    height: 60vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 6rem;
-
 }
 
 .herotext {
-    font-size: 48px;
+    font-size: 3rem;
     color: #F9FAF8; 
     font-weight: 900;
     padding: 1rem; 
+    min-width: 40vh;
+    flex: 1 0 auto;
+}
+
+.pageonefont {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.text-container .signup {
+    justify-content: center;
+    background-color: #3882f6;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 5px 10px;
+    margin: 1rem auto;
+    border-radius: 5px;
 }
 
 #imageholder {
     box-sizing: border-box;
-    padding: 100px 60px 100px 80px;
-    margin: 0 auto;
+    padding: 100px 60px 100px 60px;
+    margin: 0 1.5rem;
     border: 1px solid white;
     background-color: grey;
     color: white;
     justify-content: center;
     align-content: center;
-
+    flex: 0 0 auto; 
 
 }
 .footer {
+    background-color: #1F2937;
 }
